@@ -1,0 +1,531 @@
+/* Theme Name: My Theme Theme URI: http://localhost/css117/ Description: The first theme created by Moi. Version: 0.1 Author: Moi   Creation Theme by Moi || http://localhost/css117/   */
+
+/* color : 
+
+#f2541b
+#bf3c1f
+#8c331f
+#f2f2f2
+#0d0d0d
+
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    z-index: 100;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 1.3rem  ;
+	cursor: default;
+	font: inherit;
+    vertical-align: baseline;
+    color: #0d0d0d;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-color: #0B0B13;
+	overflow-x: hidden;
+	position: relative;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html{
+	margin-top: 0px !important;
+
+}
+.active{
+	color: #D6BD10;
+	border-color: #D6BD10;
+}
+#logal {
+
+margin-left: 100px;
+align-items: center;
+}
+
+
+.img-part{
+	height: 80px;
+	width: auto;
+	
+}
+.img-home{
+	height: 32px;
+	width: auto;
+	cursor: pointer;
+}
+
+/* *******stream********* */
+
+#stream{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 500px;
+    
+}
+
+#twitch-embed{
+	height:100%;
+}
+
+#reseau{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	height: 100%;
+	align-items: center;
+
+}
+
+#icone{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	height: 100%;
+	align-items: center;
+}
+
+#reseau,#icone{
+	width: 100px;
+	
+}
+
+#twitch{
+	width: 100%;
+}
+#banner{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 150px;
+	width: 100%;
+	
+	
+}
+
+#listpartenaire{
+	display: flex;
+	justify-content: space-between;
+	
+    width: 70%;
+
+	margin-right: 100px;
+
+	
+
+}
+
+
+
+/* ********************main************** */
+p,li,a, h2{
+	font-size: 1.3rem;
+	color: white;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav>ul>li{color: #1098C6;
+	padding: 5px 2px;
+	cursor: pointer;
+	text-transform: capitalize;	
+	border: 1px solid #1098C6 ;
+	margin: 3px 5px;
+	text-align: center;
+	border-radius: 5px;
+	
+
+}
+li:hover{
+	color: #D6BD10;
+	border-color: #D6BD10;
+}
+main{
+	margin-right: 85px !important;
+	margin-left: 85px !important;
+}
+main .hide{
+	display: none;
+}
+.hide{
+	display: none;
+}
+.valide{
+	display: block !important;
+}
+/* Barre de recherche */
+
+.cacher{
+	height: 50px;
+	background: white;
+	animation-duration: 3s;
+	animation-name: invertslideRightToLeft;
+	animation-fill-mode: forwards;
+	}
+	
+	.affichage{
+	height: 50px;
+	background: white;
+	animation-duration: 3s;
+	animation-name: slideRightToLeft ;
+	animation-fill-mode: forwards;
+	
+	}
+	
+	@keyframes slideRightToLeft {
+	from {
+	transform: translateX(0);
+	}
+	
+	to {
+	transform: translateX(150%);
+	}
+	}
+	
+	@keyframes invertslideRightToLeft {
+	from {
+	transform: translateX(150%);
+	}
+	
+	to {
+	transform: translateX(0);
+	}
+	}
+
+	#debutDate, #finDate, #laDAte, #categorieChoix, #searchTitre{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+	}
+
+	.lArticlePop, .propos{
+		word-wrap: break-word;
+		text-align: justify;
+	}
+	.lArticlePop{
+width: 50%;
+padding-top: 50px;
+cursor: pointer;
+margin-left: 25%;
+
+position: relative !important;
+	}
+	.lArticlePop>p{
+		margin-bottom: 15px;
+	}
+	#closePop{
+		color: white;
+		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+		float: right;
+		font-size: 1.3rem;
+		cursor: pointer;
+		position: absolute;
+		top: 25px;
+		right: -25px;
+	}
+	.articleTitre{
+		padding-top: 1.5rem;
+		margin-left: 0;
+	}
+	.artDate{
+		font-size: 1rem;
+		padding-bottom: 1rem;
+	}
+	video{
+		width: 100%;
+		height: auto;
+		margin-left: 50%;
+    transform: translateX(-50%);
+
+	}
+	.bannerPopUp{
+		width: 100%;
+		height: 200px;
+	}
+.lArticle{
+	width: 20%;
+    margin: 25px 25px;
+	position: relative;
+
+}
+#popupart{
+width: 100%;
+height: 100%;
+background-color: #0B0B13;
+position: absolute;
+
+}
+	#lastArticle{
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+	}
+.visuel{
+	position: absolute;
+	right: 0;
+}
+	#loupeimg{
+		width: 25px !important;
+		height: 25px !important;
+	}
+	#loupe{
+		display: none;
+	}
+	
+	#search-bare{
+margin:10px 5px;
+border-radius: 5px;
+width: 95%;
+height: 20px;
+padding: 10px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+display: flex;
+justify-content: start;
+align-content: center;
+
+	}
+	#search-bare>input,#search-bare>select,#search-bare>#annuler{
+	margin: 0 5px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	}
+	input[type="date"]{
+		width: 10%;
+	}
+	input[type="text"], select{
+		width: 24%;
+	}
+	#mainflex{
+		display: flex;
+		justify-content: space-around;
+	}
+	main{
+		display: flex;
+		justify-content: space-between;
+		position: relative;
+	}
+
+	#toutelaBarre, #pageune, #pagedeux, #pagetrois, #pagequatre{
+width: 100%;
+	}
+	#toutelaBarre{
+		display: flex;
+
+
+	}
+
+.articleTitre{
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: x-large;
+
+}
+.comment-body{
+	border: solid 1px white !important;
+}
+.comment-meta{
+	display: flex;
+ justify-content: space-between;
+}
+.comment-meta>a{
+	font-size: small;
+}
+ol>li>div>p{
+	padding: 7px 7px 7px 7px;
+	hyphens: auto;
+}
+.comment-edit-link{
+font-style: italic;
+}
+strong, em{
+	color: white !important;
+}
+ol>li{
+	margin-bottom: 10px;
+}
+.imgart{
+	width: 100%;
+	height: 100px;
+}
+.resum,.visuel{
+	font-size: 1rem;
+}
+	.calendrier{
+		display: flex;
+		align-content: center;
+		justify-content: space-around;
+		height: auto;
+		
+		
+		
+	}
+
+	.horraire{
+		width: 100%;
+		
+		display: flex;
+		
+	border-bottom: solid 1px white;
+	margin: 3px 0;
+	/* background: url(papyrus.jpg); */
+	background-size: cover;
+		
+	}
+	.horraire, .heure, .jeu, .streameur {
+		color: black;
+		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	}
+	.streameur{
+		font-style: italic;
+		font-size: 1.2rem;
+color: #1098C6 ;
+font-weight: 600;
+	}
+.jeu{
+	border-bottom: white 1px solid;
+	font-size: 1.2rem;
+color: #1098C6 ;
+font-weight: 600;
+}
+#Lundi, #Mardi, #Mercredi, #Jeudi, #Vendredi, #Samedi, #Dimanche{
+	width: 100%;
+	border:  1px solid white;
+
+	
+		
+}
+/* .bg-calendar{
+	background: url(papyrus.jpg);
+	background-size: cover;
+	height: 97%;
+} */
+.titre{
+	font-weight: 400;
+	color: black;
+	text-transform: capitalize;
+}
+.heure{
+font-size: 1.5rem;}
+.plage{
+	width: 70%;
+}
+h2{
+	height: 3%;
+	padding-left: 3px;
+	
+}
+.jeu, .streameur{
+	margin-bottom: 3px;
+}
+#pageune{
+	background: url(papyrus.jpg) no-repeat;
+	/* background-size: cover; */
+	background-size: 100% 97%;
+	background-position: bottom;
+	width: 90%;
+	margin: 0 0.5%;
+
+}
+/******boutique****** */
+.boutiques{
+display: flex;
+justify-content: space-around;
+}
+.bout{
+	height: auto;
+	margin-bottom: 5px;
+}
+#unProduit{
+	padding-top: 10px;
+	width: 25%;
+	height: 140px;
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	background-color: white;
+	align-items: center;
+}
+.img-boutique{
+	height: 128px;
+	width: 128px;
+	
+}
+
+#prix, .bout{	
+	text-align: center;
+	color: black !important;
+}
+#unProduit>a{
+	height: 120px;
+	width: auto;
+}
+.propos{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	padding: 15px;
+}
+
+#txtPropos{
+text-align: center;
+align-self: center;
+}
+
+#respond, span, h3, .comment-form-comment>label, .comment-form-author>label, .comment-form-email>label, .comment-form-url>label{
+	color: white;
+}
+cite{
+	color: white;
+}
+#comment-form-subscribe{
+	background-color: white !important;
+}
+
+.highlander-dark{
+	background-color: white !important;
+}
+
+#commentaires{
+	margin-top: 15px;
+
+}
+#comment{
+	height: 150px !important;
+	resize: none !important;
+}
+#site-header, .menu-top{
+	display: none;
+}
+
+.fn{
+	color: white;
+}
